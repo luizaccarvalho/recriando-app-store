@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F3228EFC272F3BBD008F635E /* BuscaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3228EFB272F3BBD008F635E /* BuscaVC.swift */; };
+		F3228F06272F40EE008F635E /* BuscaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3228F05272F40EE008F635E /* BuscaCell.swift */; };
+		F3228F0C272F4213008F635E /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3228F0B272F4213008F635E /* UIView.swift */; };
+		F3228F19272F42FA008F635E /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3228F18272F42FA008F635E /* UIImageView.swift */; };
+		F3228F1E272F4581008F635E /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3228F1D272F4581008F635E /* UILabel.swift */; };
+		F3228F23272F4BE1008F635E /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3228F22272F4BE1008F635E /* UIButton.swift */; };
+		F3228F28272F4CB8008F635E /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3228F27272F4CB8008F635E /* UIColor.swift */; };
 		F38F2363271B69B9000C5688 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F2362271B69B9000C5688 /* AppDelegate.swift */; };
 		F38F2365271B69B9000C5688 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F2364271B69B9000C5688 /* SceneDelegate.swift */; };
 		F38F2367271B69B9000C5688 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F2366271B69B9000C5688 /* ViewController.swift */; };
@@ -15,6 +22,7 @@
 		F38F236F271B69C4000C5688 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F38F236D271B69C4000C5688 /* LaunchScreen.storyboard */; };
 		F38F237A271B69C5000C5688 /* AppStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F2379271B69C5000C5688 /* AppStoreTests.swift */; };
 		F38F2385271B69C5000C5688 /* AppStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F2384271B69C5000C5688 /* AppStoreUITests.swift */; };
+		F3D9509A272ECA7E00F76ADA /* BaseTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D95099272ECA7E00F76ADA /* BaseTabBarVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F3228EFB272F3BBD008F635E /* BuscaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscaVC.swift; sourceTree = "<group>"; };
+		F3228F05272F40EE008F635E /* BuscaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscaCell.swift; sourceTree = "<group>"; };
+		F3228F0B272F4213008F635E /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIView.swift; path = ../../../../../Downloads/UIView.swift; sourceTree = "<group>"; };
+		F3228F18272F42FA008F635E /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		F3228F1D272F4581008F635E /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		F3228F22272F4BE1008F635E /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		F3228F27272F4CB8008F635E /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		F38F235F271B69B9000C5688 /* AppStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F38F2362271B69B9000C5688 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F38F2364271B69B9000C5688 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +64,7 @@
 		F38F2380271B69C5000C5688 /* AppStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F38F2384271B69C5000C5688 /* AppStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreUITests.swift; sourceTree = "<group>"; };
 		F38F2386271B69C5000C5688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3D95099272ECA7E00F76ADA /* BaseTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +92,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F3228F03272F40A4008F635E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F3228F04272F40B1008F635E /* Busca */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F3228F04272F40B1008F635E /* Busca */ = {
+			isa = PBXGroup;
+			children = (
+				F3228F05272F40EE008F635E /* BuscaCell.swift */,
+			);
+			path = Busca;
+			sourceTree = "<group>";
+		};
+		F3228F0A272F41B2008F635E /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				F3228F0B272F4213008F635E /* UIView.swift */,
+				F3228F18272F42FA008F635E /* UIImageView.swift */,
+				F3228F1D272F4581008F635E /* UILabel.swift */,
+				F3228F22272F4BE1008F635E /* UIButton.swift */,
+				F3228F27272F4CB8008F635E /* UIColor.swift */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
 		F38F2356271B69B9000C5688 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +143,9 @@
 		F38F2361271B69B9000C5688 /* AppStore */ = {
 			isa = PBXGroup;
 			children = (
+				F3228F0A272F41B2008F635E /* Lib */,
+				F3228F03272F40A4008F635E /* View */,
+				F3D95098272ECA2600F76ADA /* Controller */,
 				F38F2362271B69B9000C5688 /* AppDelegate.swift */,
 				F38F2364271B69B9000C5688 /* SceneDelegate.swift */,
 				F38F2366271B69B9000C5688 /* ViewController.swift */,
@@ -126,6 +173,23 @@
 				F38F2386271B69C5000C5688 /* Info.plist */,
 			);
 			path = AppStoreUITests;
+			sourceTree = "<group>";
+		};
+		F3D95098272ECA2600F76ADA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F3D950A1272ED23500F76ADA /* Busca */,
+				F3D95099272ECA7E00F76ADA /* BaseTabBarVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F3D950A1272ED23500F76ADA /* Busca */ = {
+			isa = PBXGroup;
+			children = (
+				F3228EFB272F3BBD008F635E /* BuscaVC.swift */,
+			);
+			path = Busca;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +322,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3228F19272F42FA008F635E /* UIImageView.swift in Sources */,
+				F3228F06272F40EE008F635E /* BuscaCell.swift in Sources */,
 				F38F2367271B69B9000C5688 /* ViewController.swift in Sources */,
+				F3D9509A272ECA7E00F76ADA /* BaseTabBarVC.swift in Sources */,
+				F3228F1E272F4581008F635E /* UILabel.swift in Sources */,
+				F3228F23272F4BE1008F635E /* UIButton.swift in Sources */,
+				F3228F0C272F4213008F635E /* UIView.swift in Sources */,
+				F3228F28272F4CB8008F635E /* UIColor.swift in Sources */,
 				F38F2363271B69B9000C5688 /* AppDelegate.swift in Sources */,
 				F38F2365271B69B9000C5688 /* SceneDelegate.swift in Sources */,
+				F3228EFC272F3BBD008F635E /* BuscaVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
